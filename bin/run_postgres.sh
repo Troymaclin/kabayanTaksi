@@ -12,7 +12,7 @@ cat << EOF
 === DOCKER INFO: ===
 IP/PORT: $IPADDR:5432
 === COMMANDS HELP: ===
-psql -U libretaxi -h localhost -p 5432 -d kabayantaxi
+psql -U kabayantaxi -h localhost -p 5432 -d kabayantaxi
 	Run PostgreSQL CLI (password is kabayantaxi)
 \c kabayantaxi
 	Connect to the database
